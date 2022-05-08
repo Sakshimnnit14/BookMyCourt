@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #191a19;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #d8e9a8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1;
+}
+.navbar_scroll{
+    background-color: #191a19;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #d8e9a8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 5px 100px;
+    z-index: 1;
+}
+
+.main-header{
+    position: relative;
+    font-weight: 100;
+    color: #d8e9a8;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    position: relative;
+    list-style: none;
+}
+.navbar ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d8e9a8;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+.navbar_scroll ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_scroll ul li{
+    position: relative;
+    list-style: none;
+}
+.navbar_scroll ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d8e9a8;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+.navbar ul li a:hover
+{
+    letter-spacing: 5px;
+}
+.navbar_scroll a:hover
+{
+    letter-spacing: 5px;
+}
